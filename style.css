@@ -8,9 +8,14 @@ body{
     background: linear-gradient(90deg, rgba(48,20,43,1) 0%, rgba(163,0,255,1) 35%);
 }
 
+h1{
+    display: block;
+    text-align: center;
+}
+
 .conteiner{
     padding: 50px;
-    background-color: aqua;
+    background-color: #a300ff; 
     align-items: center;
     border-radius: 10px;
 }
@@ -22,7 +27,20 @@ body{
 }
 
 .campo{
-    width: 700px;
+    margin-bottom:10px ;
+    width: 500px;
     padding: 7px;
+    border-radius: 8px;
+}
+
+.botao{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    padding: 4px;
+    border-radius: 8px;
+
 }
 
