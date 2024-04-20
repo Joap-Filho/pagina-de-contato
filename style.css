@@ -24,10 +24,12 @@ h1{
     min-height: 90vh;
 }
 
+
 #formulario{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    position: relative;
 }
 
 .campo{
@@ -50,9 +52,9 @@ h1{
     border: none;
     border-radius: 30px;
     font-size: 15px;
-    height: 45px;
+    padding: 10px 20px;
     outline: none;
-    width: 100%;
+    width: fit-content;
     color: #f8f6f6;
     background: rgba(102, 101, 101, 0.445);
     cursor: pointer;
@@ -68,6 +70,22 @@ h1{
 #mensagem{
     resize: none;
     width: 98%;
-    height: 240px;
+    height: 200px;
 }
 
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    .campo,
+    #mensagem {
+        width: 100%; /* Define a largura dos campos como 100% para ocupar toda a largura disponível */
+    }
+    .submit {
+        width: auto; /* Deixe o botão com a largura padrão para que ele não ocupe toda a largura da tela */
+    }
+    .espaco {
+        width: auto; /* Deixe a largura do espaço flexível */
+    }
+}
