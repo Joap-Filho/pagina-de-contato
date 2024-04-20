@@ -1,0 +1,19 @@
+
+
+body{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   background: rgb(48,20,43);
+    background: linear-gradient(90deg, rgba(48,20,43,1) 0%, rgba(163,0,255,1) 35%);
+
+}
+
+
+.campo{
+    width: 15%;
+}
+
