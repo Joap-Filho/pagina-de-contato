@@ -1,19 +1,28 @@
-
-
 body{
     display: flex;
-   align-items: center;
-   justify-content: center;
-   margin: 0;
-   padding: 0;
-   font-family: sans-serif;
-   background: rgb(48,20,43);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background: rgb(48,20,43);
     background: linear-gradient(90deg, rgba(48,20,43,1) 0%, rgba(163,0,255,1) 35%);
-
 }
 
+.conteiner{
+    padding: 50px;
+    background-color: aqua;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 .campo{
-    width: 15%;
+    width: 700px;
+    padding: 7px;
 }
 
